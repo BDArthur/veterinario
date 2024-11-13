@@ -1,31 +1,32 @@
 import React from "react";
-import Img1 from "../../assets/shirt/shirt.png";
-import Img2 from "../../assets/shirt/shirt2.png";
-import Img3 from "../../assets/shirt/shirt3.png";
+import Img1 from "../../assets/top/acolhimento.jpg";
+import Img2 from "../../assets/top/exame.jpg";
+import Img3 from "../../assets/top/vacina.jpg";
 import { FaStar } from "react-icons/fa";
 
-const ProductsData = [
+
+const ProductsData  = [
   {
     id: 1,
     img: Img1,
-    title: "Casual Wear",
+    title: "Acolhimento",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Aqui, o seu pet recebe o carinho e cuidado que ele merece. Atendimento com atenção e respeito em cada detalhe.",
   },
   {
     id: 2,
     img: Img2,
-    title: "Printed shirt",
+    title: "Exames",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Exames completos para garantir a saúde e bem-estar do seu melhor amigo. Porque a saúde dele é nossa prioridade.",
   },
   {
     id: 3,
     img: Img3,
-    title: "Women shirt",
+    title: "Vacinas",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
+      "Proteja seu pet contra doenças com as vacinas mais atualizadas. A prevenção é o caminho para uma vida longa e feliz.",
+  }
 ];
 const TopProducts = ({ handleOrderPopup }) => {
   return (
@@ -34,10 +35,10 @@ const TopProducts = ({ handleOrderPopup }) => {
         {/* Header section */}
         <div className="text-left mb-24">
           <p data-aos="fade-up" className="text-sm text-primary">
-            Top Rated Products for you
+            As melhores consultas para o seu pet:
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Best Products
+          Consulta veterinária com carinho e dedicação. A saúde do seu pet é nossa prioridade.
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
@@ -56,7 +57,7 @@ const TopProducts = ({ handleOrderPopup }) => {
                 <img
                   src={data.img}
                   alt=""
-                  className="max-w-[140px] block mx-auto transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md"
+                  className="max-w-[240px] block mx-auto transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md"
                 />
               </div>
               {/* details section */}

@@ -46,11 +46,10 @@ const Footer = () => {
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              Consultas
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+              Marque uma consulta que pode salvar a vida do seu amigo de 4 patas
             </p>
           </div>
 
@@ -59,7 +58,7 @@ const Footer = () => {
             <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Important Links
+                Links importantes
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
@@ -101,18 +100,18 @@ const Footer = () => {
                 <a href="#">
                   <FaFacebook className="text-3xl" />
                 </a>
-                <a href="#">
+                <a href="#">  
                   <FaLinkedin className="text-3xl" />
                 </a>
               </div>
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Noida, Uttar Pradesh</p>
+                  <p>São Paulo, Brasil</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
-                  <p>+91 123456789</p>
+                  <p>+55 12 982023800</p>
                 </div>
               </div>
             </div>

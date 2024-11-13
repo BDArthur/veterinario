@@ -1,30 +1,30 @@
 import React from "react";
-import Image1 from "../../assets/hero/women.png";
-import Image2 from "../../assets/hero/shopping.png";
-import Image3 from "../../assets/hero/sale.png";
+import Image1 from "../../assets/hero/cachorrabanho.png";
+import Image2 from "../../assets/hero/cachorromachucado.png";
+import Image3 from "../../assets/hero/cachorrobanho.png";
 import Slider from "react-slick";
 
 const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all Men's Wear",
+    title: "Dia de Princesa",
     description:
-      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "O Dia de Princesa de uma cachorrinha é um dia dedicado a mimá-la com cuidados especiais, como banho, tosa e petiscos deliciosos. É uma oportunidade para mostrar todo o amor e carinho, fazendo com que ela se sinta como uma verdadeira realeza.",
   },
   {
     id: 2,
     img: Image2,
-    title: "30% off on all Women's Wear",
+    title: "Tratamento para seu pet",
     description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "O tratamento de saúde de um cachorro inclui consultas veterinárias regulares, vacinação, controle de parasitas e, se necessário, medicamentos. Manter uma alimentação balanceada e acompanhamento constante é essencial para prevenir e tratar doenças.",
   },
   {
     id: 3,
     img: Image3,
-    title: "70% off on all Products Sale",
+    title: "Dia de príncipe",
     description:
-      "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "O Dia de Príncipe de um Cachorro é uma celebração para mimar o pet com cuidados especiais, como passeios e brinquedos novos. É uma forma de demonstrar todo o amor e carinho que ele merece.",
   },
 ];
 

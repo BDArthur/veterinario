@@ -1,15 +1,20 @@
 import React from "react";
-import Img1 from "../../assets/women/women.png";
-import Img2 from "../../assets/women/women2.jpg";
-import Img3 from "../../assets/women/women3.jpg";
-import Img4 from "../../assets/women/women4.jpg";
+import Img1 from "../../assets/remedios/simparic.png";
+import Img2 from "../../assets/remedios/vetmax.png";
+import Img3 from "../../assets/remedios/glicopan.png";
+import Img4 from "../../assets/remedios/sarniran.png";
+import Img5 from "../../assets/remedios/chemitril.png";
+import Img6 from "../../assets/remedios/flunixin.png";
+import Img7 from "../../assets/remedios/triflex.png";
+import Img8 from "../../assets/remedios/keravit.png";
+import Img9 from "../../assets/remedios/dentes.png";
 import { FaStar } from "react-icons/fa6";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Women Ethnic",
+    title: "Antipulgas e Carrapatos.",
     rating: 5.0,
     color: "white",
     aosDelay: "0",
@@ -17,7 +22,7 @@ const ProductsData = [
   {
     id: 2,
     img: Img2,
-    title: "Women western",
+    title: "Vermífugos",
     rating: 4.5,
     color: "Red",
     aosDelay: "200",
@@ -25,7 +30,7 @@ const ProductsData = [
   {
     id: 3,
     img: Img3,
-    title: "Goggles",
+    title: "Vitaminas e Suplementos.",
     rating: 4.7,
     color: "brown",
     aosDelay: "400",
@@ -33,15 +38,47 @@ const ProductsData = [
   {
     id: 4,
     img: Img4,
-    title: "Printed T-Shirt",
+    title: "Tratamentos Para Pele.",
     rating: 4.4,
     color: "Yellow",
     aosDelay: "600",
   },
   {
     id: 5,
-    img: Img2,
-    title: "Fashin T-Shirt",
+    img: Img5,
+    title: "Antibióticos",
+    rating: 4.5,
+    color: "Pink",
+    aosDelay: "800",
+  },
+  {
+    id: 6,
+    img: Img6,
+    title: "Anti-Inflamatórios",
+    rating: 4.5,
+    color: "Pink",
+    aosDelay: "800",
+  },
+  {
+    id: 7,
+    img: Img7,
+    title: "Tratamentos Para As Orelhas",
+    rating: 4.5,
+    color: "Pink",
+    aosDelay: "800",
+  },
+  {
+    id: 8,
+    img: Img8,
+    title: "Tratamentos para os Olhos",
+    rating: 4.5,
+    color: "Pink",
+    aosDelay: "800",
+  },
+  {
+    id: 9,
+    img: Img9,
+    title: "Tratamento Dentário",
     rating: 4.5,
     color: "Pink",
     aosDelay: "800",

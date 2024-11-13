@@ -13,22 +13,12 @@ const Menu = [
   },
   {
     id: 2,
-    name: "Top Rated",
+    name: "Tratamentos",
     link: "/#services",
   },
   {
     id: 3,
-    name: "Kids Wear",
-    link: "/#",
-  },
-  {
-    id: 3,
-    name: "Mens Wear",
-    link: "/#",
-  },
-  {
-    id: 3,
-    name: "Electronics",
+    name: "Dia de Salão",
     link: "/#",
   },
 ];
