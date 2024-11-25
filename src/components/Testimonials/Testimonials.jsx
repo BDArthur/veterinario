@@ -1,24 +1,27 @@
 import React from "react";
 import Slider from "react-slick";
+import Image1 from "../../assets/testimonials/Arthur.jpg";
+import Image2 from "../../assets/testimonials/Guilherme.jpg";
+import Image3 from "../../assets/testimonials/thiago.jpg";
 
 const TestimonialData = [
   {
     id: 1,
     name: "Arthur",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/101/101",
+    img: Image1,
   },
   {
     id: 2,
     name: "Guilherme",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/102/102",
+    img: Image3,
   },
   {
     id: 3,
     name: "Thiago",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/104/104",
+    img: Image2,
   },
 ];
 
@@ -91,7 +94,7 @@ const Testimonials = () => {
                     <img
                       src={data.img}
                       alt=""
-                      className="rounded-full w-20 h-20"
+                      className="rounded-full w-75 h-75"
                     />
                   </div>
                   <div className="flex flex-col items-center gap-4">
