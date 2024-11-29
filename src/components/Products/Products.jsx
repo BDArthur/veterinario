@@ -23,7 +23,7 @@ const ProductsData = [
     id: 2,
     img: Img2,
     title: "Vermífugos",
-    rating: 4.5,
+    rating: 4.8,
     color: "Red",
     aosDelay: "200",
   },
@@ -39,7 +39,7 @@ const ProductsData = [
     id: 4,
     img: Img4,
     title: "Tratamentos Para Pele.",
-    rating: 4.4,
+    rating: 4.9,
     color: "Yellow",
     aosDelay: "600",
   },
@@ -47,7 +47,7 @@ const ProductsData = [
     id: 5,
     img: Img5,
     title: "Antibióticos",
-    rating: 4.5,
+    rating: 4.9,
     color: "Pink",
     aosDelay: "800",
   },
@@ -55,7 +55,7 @@ const ProductsData = [
     id: 6,
     img: Img6,
     title: "Anti-Inflamatórios",
-    rating: 4.5,
+    rating: 4.8,
     color: "Pink",
     aosDelay: "800",
   },
@@ -63,7 +63,7 @@ const ProductsData = [
     id: 7,
     img: Img7,
     title: "Tratamentos Para As Orelhas",
-    rating: 4.5,
+    rating: 4.7,
     color: "Pink",
     aosDelay: "800",
   },
@@ -71,7 +71,7 @@ const ProductsData = [
     id: 8,
     img: Img8,
     title: "Tratamentos para os Olhos",
-    rating: 4.5,
+    rating: 4.8,
     color: "Pink",
     aosDelay: "800",
   },
@@ -79,7 +79,7 @@ const ProductsData = [
     id: 9,
     img: Img9,
     title: "Tratamento Dentário",
-    rating: 4.5,
+    rating: 5.0,
     color: "Pink",
     aosDelay: "800",
   },
@@ -92,14 +92,17 @@ const Products = () => {
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-sm text-primary">
-            Top Selling Products for you
+            Melhores Produtos para seu Pet 🐾
           </p>
+          <br></br>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Products
+            Produtos
           </h1>
+          <br></br>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+          Produtos para pets são essenciais para garantir o bem-estar e a 
+          felicidade dos nossos amigos de quatro patas. Eles incluem uma variedade de itens, 
+          desde alimentos nutritivos e brinquedos divertidos até acessórios de higiene e cuidados de saúde.
           </p>
         </div>
         {/* Body section */}
@@ -132,7 +135,7 @@ const Products = () => {
           {/* view all button */}
           <div className="flex justify-center">
             <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
-              View All Button
+              Ver mais
             </button>
           </div>
         </div>

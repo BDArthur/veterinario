@@ -41,8 +41,7 @@ const TopProducts = ({ handleOrderPopup }) => {
           Consulta veterinária com carinho e dedicação. A saúde do seu pet é nossa prioridade.
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Diversos produtos e tratamentos para seu melhor amigo de 4 patas.
           </p>
         </div>
         {/* Body section */}
