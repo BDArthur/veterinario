@@ -7,23 +7,23 @@ import Image3 from "../../assets/testimonials/thiago.jpg";
 const TestimonialData = [
   {
     id: 1,
-    name: "Arthur",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Anastacio, Arthur, 2024",
+    text: "Se você olhar muito para o abismo, o abismo vai achar que você quer dar pra ele",
     img: Image1,
   },
   {
     id: 2,
-    name: "Guilherme",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Santos, Guilherme, 2024",
+    text: "O que é um peido pra quem ja está todo cagado?",
     img: Image3,
   },
   {
     id: 3,
-    name: "Thiago",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Rodrigues, Thiago, 2024",
+    text: "Já se perguntou o que é um Quebra-Cabeça?",
     img: Image2,
   },
-];
+    ];
 
 const Testimonials = () => {
   var settings = {
